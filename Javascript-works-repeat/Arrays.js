@@ -52,6 +52,11 @@ var samples = {
         return `My name is ${samples.name} ${samples.surname} , I'm ${samples.age} yo.`
     },
 }
+
+samples.myCity = function () {
+    console.log(` I live in ${this.city}`);
+}
+samples.myCity();
 console.log(samples.introduce())
 
 let btn = document.getElementById('btn');

@@ -5,26 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
     <title>Document</title>
 </head>
 
 <body>
 
     <div id="container">
-        <h1>Hi JavaScript</h1>
-        <button id="btn-two" onclick={console.log(completed)}>
-            Birleşik array
-        </button>
-        <hr>
-        <button id="btn" onclick={console.log(femaleUser,items)}>
-            Items array'i ve FemaleUser array'i
-        </button>
-        <hr>
-        <button id="btn-three" onclick={console.log(samples)}>
-            Samples
-        </button>
+        <div class="main">
+            <!-- <div>
+                <ul class="liste">
+                    <li id="walterwhite">Walter White</li>
+                    <li class="alternate">Jesse Pinkman</li>
+                    <li>Skyler White</li>
+                    <li class="alternate">Hank Schrader</li>
+                    <li>Gustavo Fring</li>
+                </ul>
+
+                <input type="text" id="veri">
+                <button id="ekle">Listeye Ekle</button>
+            </div> -->
+        </div>
+
+        <div id="sayfa">
+            <label>Ad:</label> <input type="text" id="ad">
+            <label>Soyad:</label> <input type="text" id="soyad">
+            <label>Yaş:</label> <input type="number" id="yas">
+            <label>Maaş:</label> <input type="number" id="maas">
+            <label>Departmant:</label> <input type="text" id="departmant">
+            <button id="ekle">Tabloya Ekle</button>
+            <table id="liste">
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Yaş</th>
+                    <th>Maaş</th>
+                    <th>Departmant</th>
+                </tr>
+            </table>
+        </div>
     </div>
-    <script src="./Arrays.js"></script>
+    <script src="./table.js"></script>
+    <!-- <script src="./list.js"></script> -->
+    <!-- <script src="./Arrays.js"></script> -->
 </body>
 
 </html>
